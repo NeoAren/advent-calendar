@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/advent-calendar/static/css/main.1c15955a.chunk.css",
+    "main.js": "/advent-calendar/static/js/main.7d9df182.chunk.js",
+    "main.js.map": "/advent-calendar/static/js/main.7d9df182.chunk.js.map",
+    "runtime-main.js": "/advent-calendar/static/js/runtime-main.a9a4e370.js",
+    "runtime-main.js.map": "/advent-calendar/static/js/runtime-main.a9a4e370.js.map",
+    "static/js/2.2c4458eb.chunk.js": "/advent-calendar/static/js/2.2c4458eb.chunk.js",
+    "static/js/2.2c4458eb.chunk.js.map": "/advent-calendar/static/js/2.2c4458eb.chunk.js.map",
+    "index.html": "/advent-calendar/index.html",
+    "static/css/main.1c15955a.chunk.css.map": "/advent-calendar/static/css/main.1c15955a.chunk.css.map",
+    "static/js/2.2c4458eb.chunk.js.LICENSE.txt": "/advent-calendar/static/js/2.2c4458eb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a9a4e370.js",
+    "static/js/2.2c4458eb.chunk.js",
+    "static/css/main.1c15955a.chunk.css",
+    "static/js/main.7d9df182.chunk.js"
+  ]
+}

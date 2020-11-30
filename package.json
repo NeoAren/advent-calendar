@@ -4,6 +4,7 @@
    "description": "An advent calendar with 24 openable pockets with some hidden goodies.",
    "author": "NeoAren",
    "private": true,
+   "homepage": "https://neoaren.github.io/advent-calendar/",
    "dependencies": {
       "react": "^17.0.1",
       "react-dom": "^17.0.1",
@@ -11,7 +12,7 @@
    },
    "scripts": {
       "start": "react-scripts start",
-      "build": "react-scripts build",
+      "build": "react-scripts docs",
       "eject": "react-scripts eject"
    },
    "browserslist": {
