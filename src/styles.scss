@@ -95,20 +95,14 @@ input[type=datetime-local]{
 
    // Candle styles
    &__candle {
-      padding: 20px;
-   }
+      padding: 20px; }
 
    // Calendar pocket
    &__pocket {
       border-radius: 5px;
       background-color: #ececda;
-      box-shadow: #79796d 2px 2px 0 1px;
-
-      // Hovered styles
-      &:hover {
-         cursor: pointer; }
-      &--x:hover {
-         cursor: default; }
+      box-shadow: #79796d38 2px 2px 10px 3px;
+      transition: transform 0.5s ease-out;
 
       // Pocket image
       img {
@@ -116,6 +110,12 @@ input[type=datetime-local]{
          height: 100%;
          border-radius: 5px;
          pointer-events: none; }
+
+      // Hovered styles
+      &:hover {
+         transform: scale(1.1); }
+      &--openable:not(&--open) {
+         cursor: pointer; }
 
       // Pocket positions
       &--0 {

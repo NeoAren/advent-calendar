@@ -50,7 +50,12 @@ const App = () => {
          <img className="background" src={`${path}/images/background.jpg`} alt="Photo by form PxHere" />
          <div className="calendar">
             {pockets.map((item, index) => {
-               const className = 'calendar__pocket calendar__pocket--' + index;
+               let className = 'calendar__pocket calendar__pocket--' + index;
+               if (item === 'x') className += ' calendar__pocket--center';
+               if (opened.includes(item)) className += ' calendar__pocket--open';
+               if (Number.isSafeInteger(item)) {
+                  className += new Date().getDate() < item ? ' calendar__pocket--locked' : ' calendar__pocket--openable';
+               }
                return (
                   <div key={index} className={className} onClick={() => open(item)}>
                      {!opened.includes(item) ? (
