@@ -75,13 +75,18 @@ input[type=datetime-local]:focus {
 
 .background {
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
   width: 100vw;
-  z-index: -1;
+  height: 100vh;
+  z-index: -2;
   filter: blur(5px);
+  object-fit: cover;
+}
+
+.snow-container {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
 }
 
 .calendar {
@@ -99,6 +104,9 @@ input[type=datetime-local]:focus {
 }
 .calendar__pocket:hover {
   cursor: pointer;
+}
+.calendar__pocket--x:hover {
+  cursor: default;
 }
 .calendar__pocket img {
   width: 100%;
@@ -156,55 +164,55 @@ input[type=datetime-local]:focus {
 }
 .calendar__pocket--13 {
   grid-row: 7/10;
-  grid-column: 7/10;
+  grid-column: 10/13;
 }
 .calendar__pocket--14 {
   grid-row: 7/10;
-  grid-column: 10/13;
-}
-.calendar__pocket--15 {
-  grid-row: 7/10;
   grid-column: 13/16;
 }
-.calendar__pocket--16 {
+.calendar__pocket--15 {
   grid-row: 10/12;
   grid-column: 3/5;
 }
-.calendar__pocket--17 {
+.calendar__pocket--16 {
   grid-row: 10/12;
   grid-column: 5/7;
 }
-.calendar__pocket--18 {
+.calendar__pocket--17 {
   grid-row: 10/13;
   grid-column: 7/10;
 }
-.calendar__pocket--19 {
+.calendar__pocket--18 {
   grid-row: 10/12;
   grid-column: 10/12;
 }
-.calendar__pocket--20 {
+.calendar__pocket--19 {
   grid-row: 10/12;
   grid-column: 12/14;
 }
-.calendar__pocket--21 {
+.calendar__pocket--20 {
   grid-row: 12/15;
   grid-column: 2/5;
 }
-.calendar__pocket--22 {
+.calendar__pocket--21 {
   grid-row: 12/14;
   grid-column: 5/7;
 }
-.calendar__pocket--23 {
+.calendar__pocket--22 {
   grid-row: 13/16;
   grid-column: 7/10;
 }
-.calendar__pocket--24 {
+.calendar__pocket--23 {
   grid-row: 12/14;
   grid-column: 10/12;
 }
-.calendar__pocket--25 {
+.calendar__pocket--24 {
   grid-row: 12/15;
   grid-column: 12/15;
+}
+.calendar__pocket--x {
+  grid-row: 7/10;
+  grid-column: 7/10;
 }
 
 /*# sourceMappingURL=styles.css.map */

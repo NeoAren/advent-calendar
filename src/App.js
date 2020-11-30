@@ -6,9 +6,9 @@ const App = () => {
    const calendar_items = [
       1, 2, 3, 4, 5,
       6, 7, 8, 9, 10,
-      11, 12, 13, 14, 15,
-      16, 17, 18, 19, 20,
-      21, 22, 23, 24, 25
+      11, 12, 'x', 13, 14,
+      15, 16, 17, 18, 19,
+      20, 21, 22, 23, 24
    ];
 
    const path = process.env.PUBLIC_URL;
@@ -21,7 +21,7 @@ const App = () => {
          <img className="background" src={`${path}/images/background.jpg`} alt="Photo by form PxHere" />
          <div className="calendar">
             {calendar_items.map(item => {
-               const className = 'calendar__pocket calendar__pocket--' + item;
+               let className = 'calendar__pocket calendar__pocket--' + item;
                return (
                   <div key={item} className={"calendar__pocket " + className}>
                      <img src={`${path}/images/Pocket_${item}.png`} alt={`Pocket ${item}`} />

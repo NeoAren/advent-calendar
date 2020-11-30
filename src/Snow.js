@@ -7,11 +7,15 @@ const Snow = () => {
 
    // Generate 200 snow elements
    for (let i = 0; i < 200; i++) {
-      snowElements.push(<div className="snow" />);
+      snowElements.push(<div key={i} className="snow" />);
    }
 
    // Render snow
-   return snowElements;
+   return (
+      <div className="snow-container">
+         {snowElements}
+      </div>
+   );
 
 };
 
