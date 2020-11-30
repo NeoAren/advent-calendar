@@ -13,8 +13,6 @@ const App = () => {
 
    const path = process.env.PUBLIC_URL;
 
-   // Photo by form PxHere https://pxhere.com/en/photo/94605 https://pxhere.com/en/photo/1374018
-
    return (
       <div className="container">
          <Snow />
