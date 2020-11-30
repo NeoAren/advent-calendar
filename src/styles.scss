@@ -71,8 +71,9 @@ input[type=datetime-local]{
    right: 0;
    bottom: 0;
    left: 0;
+   width: 100vw;
    z-index: -1;
-   filter: blur(3px);
+   filter: blur(5px);
 }
 
 .calendar {
@@ -180,6 +181,3 @@ input[type=datetime-local]{
    }
 
 }
-
-
-

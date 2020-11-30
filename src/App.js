@@ -1,4 +1,5 @@
 import React from 'react';
+import Snow from './Snow';
 
 const App = () => {
 
@@ -12,11 +13,12 @@ const App = () => {
 
    const path = process.env.PUBLIC_URL;
 
-   // Photo by form PxHere https://pxhere.com/en/photo/94605
+   // Photo by form PxHere https://pxhere.com/en/photo/94605 https://pxhere.com/en/photo/1374018
 
    return (
       <div className="container">
-         <img className="background" src={`${path}/images/background.jpg`} alt="Snowy tree branch" />
+         <Snow />
+         <img className="background" src={`${path}/images/background.jpg`} alt="Photo by form PxHere" />
          <div className="calendar">
             {calendar_items.map(item => {
                const className = 'calendar__pocket calendar__pocket--' + item;
