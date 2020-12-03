@@ -1,5 +1,5 @@
 # Advent Calendar
-🎄 An advent calendar with 24 openable pockets with some hidden goodies.
+🎄 An advent calendar with 24 openable pockets.
 
 ## Used material
 - Pocket covers: [25 Dairy-Free Advent Calendars for a Free-From Christmas Countdown](https://www.godairyfree.org/news/dairy-free-advent-calendars)
